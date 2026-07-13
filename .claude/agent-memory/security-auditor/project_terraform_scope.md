@@ -5,7 +5,7 @@ metadata:
   type: project
 ---
 
-As of 2026-07-10, `terraform/` (main.tf, variables.tf, outputs.tf, providers.tf, backend.tf)
+As of 2026-07-10 (re-confirmed 2026-07-13), `terraform/` (main.tf, variables.tf, outputs.tf, providers.tf, backend.tf)
 provisions only: aws_s3_bucket (website), aws_s3_bucket_public_access_block,
 aws_cloudfront_origin_access_control, aws_s3_bucket_policy, aws_cloudfront_distribution.
 There are no aws_iam_role / aws_iam_policy / OIDC provider resources anywhere in the repo,
