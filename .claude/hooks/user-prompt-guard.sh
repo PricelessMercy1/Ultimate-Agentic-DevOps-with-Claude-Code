@@ -1,5 +1,5 @@
 #!/bin/bash
-# SAY hook — catches destructive intent in user prompts
+# UserPromptSubmit hook — blocks destructive intent in user prompts
 
 INPUT=$(cat)
 PROMPT=$(echo "$INPUT" | jq -r '.prompt // empty')

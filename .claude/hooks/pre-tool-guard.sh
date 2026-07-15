@@ -1,5 +1,5 @@
 #!/bin/bash
-# DO hook — blocks dangerous Bash commands before they execute
+# PreToolUse hook — blocks dangerous Bash commands before execution
 
 INPUT=$(cat)
 CMD=$(echo "$INPUT" | jq -r '.tool_input.command // empty')
